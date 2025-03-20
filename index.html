@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Oscar">
+    <meta name="description" content="Blog personal de Oscar">
+    <title>Mi Blog Personal</title>
+    <!-- Enlace al archivo CSS externo -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <div class="container">
+            <h1>Mi Blog Personal</h1>
+            <p>Un espacio para compartir pensamientos, experiencias y más</p>
+        </div>
+        
+    </header>
+
+    <!-- Barra de navegación -->
+    <nav>
+        <div class="container">
+            <a href="#home">Inicio</a>
+            <a href="#about">Sobre mí</a>
+            <a href="#videos">Videos</a>
+            <a href="#contact">Contacto</a>
+        </div>
+    </nav>
+
+    <h1>Juego de la Vivorita (Snake)</h1>
+    <div class="game-container">
+        <canvas id="gameCanvas" width="400" height="400"></canvas>
+        <div class="buttons-container">
+            <button id="startButton">Jugar</button>
+            <button id="stopButton" disabled>Dejar de Jugar</button>
+        </div>
+    </div>
+
+
+    <!-- Contenido principal -->
+    <div class="main-content container">
+        <section class="blog-post" id="home">
+            <h2>Bienvenidos al blog</h2>
+            <p>Hola, soy Oscar y este es mi blog personal donde comparto mis reflexiones, escritos, y experiencias. ¡Espero que disfrutes el contenido!</p>
+        </section>
+
+        <section class="blog-post">
+            <h2>El arte de escribir: Mi experiencia</h2>
+            <p>Escribir siempre ha sido una pasión para mí. En este blog, trato de compartir mis pensamientos, mis aprendizajes y mi vida diaria a través de la escritura. Cada palabra tiene su propio poder.</p>
+        </section>
+
+        <section class="blog-post">
+            <h2>Viajar es vivir</h2>
+            <p>La aventura de viajar es una de las más grandes. En este post, te cuento sobre mi última experiencia viajando por [Destino], un lugar lleno de historia y cultura.</p>
+        </section>
+
+        <!-- Sección de Videos -->
+        <section id="videos">
+            <h2>Mis Videos Favoritos</h2>
+            <div class="video-container">
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p>Video 1: Un vistazo a la vida diaria</p>
+                </div>
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p>Video 2: Explorando nuevos lugares</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Pie de página -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Mi Blog Personal | Todos los derechos reservados</p>
+            <p><a href="mailto:tuemail@dominio.com">Contáctame</a></p>
+        </div>
+    </footer>
+
+    <!-- Enlace al archivo JavaScript externo -->
+    <script src="script.js"></script>
+</body>
+</html>
